@@ -1,0 +1,49 @@
+.container {
+  max-width: 30%;
+  max-height: 444px;
+  border: 1px solid sandybrown;
+  margin-top: 100px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding: 15px;
+  cursor: pointer;
+  flex: 1 1 auto;
+}
+.image_wrapper {
+  position: relative;
+}
+.images {
+  width: 100%;
+  max-height: 330px;
+}
+.badge {
+  position: absolute;
+  bottom: -22px;
+  right: 15px;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  background-color: #5ece7b;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_wrapper {
+  margin-top: 20px;
+}
+.description {
+  color: #1d1f22;
+  font-size: 18px;
+  font-weight: 300;
+  position: relative;
+}
+.price {
+  color: #1d1f22;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container:hover {
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}

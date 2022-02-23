@@ -1,0 +1,16 @@
+.container_list {
+}
+.currency_list {
+  appearance: none;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+
+.currency_item {
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d1f22;
+  min-width: 114px;
+  padding: 20px;
+}

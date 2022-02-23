@@ -1,0 +1,111 @@
+.section {
+  display: flex;
+  margin-top: 20px;
+}
+.content_wrap {
+  border: 1px solid red;
+  margin-right: 5px;
+}
+.title {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #1d1f22;
+}
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1d1f22;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sizes_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rectangle {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #1d1f22;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.disabled {
+  border: 1px solid #a6a6a6;
+  color: #a6a6a6;
+}
+.rectangle:hover {
+  background-color: #1d1f22;
+  color: white;
+}
+.quantity_wrap {
+  border: 1px solid blue;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.control_btn {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #1d1f22;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.span1 {
+  position: absolute;
+  transform: translate(2px, 0) rotate(90deg);
+}
+.span2 {
+  position: absolute;
+  transform: translate(0, -2px);
+}
+.control_btn:hover {
+  background-color: #1d1f22;
+  color: #fff;
+}
+.quantity_text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1d1f22;
+}
+.picture_wrap {
+  border: 1px solid green;
+  margin-left: 5px;
+  background: url(./../../../assets/images/image2.jpg) no-repeat center/cover;
+  width: 105px;
+  position: relative;
+}
+.arrow_left,
+.arrow_right {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+.arrow_left {
+}
+.arrow_right {
+  right: 2px;
+}

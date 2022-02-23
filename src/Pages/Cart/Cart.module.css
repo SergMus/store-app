@@ -1,0 +1,24 @@
+.content_wrapper {
+  margin: 0 auto;
+  max-width: 1238px;
+  margin-top: 80px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  border: 1px solid red;
+}
+.list_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 42px;
+  color: #1d1f22;
+  font-weight: 400;
+}
+.cart_wrapper {
+  margin-top: 70px;
+  border: 1px solid greenyellow;
+}
